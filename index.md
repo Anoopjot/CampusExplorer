@@ -9,5 +9,10 @@ https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/DhalluBudget.
 
 # sept 18
 schedule
+https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Schedule.docx
+
+# Sept 11
+Proposal
+
 
 
