@@ -5,7 +5,9 @@ These are the invoices for the products which i ordered. I ordered them with my 
 
 # Sept 25
 budget
+https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/DhalluBudget.xlsx
 
 # sept 18
 schedule
+
 
