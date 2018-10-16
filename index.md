@@ -1,19 +1,28 @@
-# Oct 2
-These are the invoices for the products which i ordered. I ordered them with my group member Bettin Jacob, The products include: Raspberry pi b+, 32GB SD-Card, TMP36-Temperature Sensor,ATtiny85 8-bit 20 MHz AVR Microcontroller, Jumper Wires.
+
+
+# Week 7-> Oct 16
+Pseudo Code Assignment & Acquisitions.
+
+# Week 6 -> Oct 9
+Reading Week.
+
+# Week5-> Oct 2
+Parts Ordered.
+These are the invoices for the products which i ordered. I ordered them with my group member Bettin Jacob, The products include: Raspberry pi b+, 32GB SD-Card, TMP36-Temperature Sensor,ATtiny85 8-bit 20 MHz AVR Microcontroller, Jumper Wires & 8 Pin DIP Socket.
 
 ![robotshop](https://user-images.githubusercontent.com/43186746/46379250-33a4b500-c66c-11e8-8274-a6564f25f0e2.png)
 ![amazon](https://user-images.githubusercontent.com/43186746/46379252-356e7880-c66c-11e8-818d-0680ee2ceb0c.png)
 
-# Sept 25
-budget
+# Week 4-> Sept 25
+Budget.
 https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/DhalluBudget.xlsx
 
-# sept 18
-schedule
+# Week 3-> sept 18
+Schedule.
 https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Schedule.docx
 
-# Sept 11
-Proposal
+# Week 2-> Sept 11
+Proposal.
 https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Proposal.xlsx
 
 
