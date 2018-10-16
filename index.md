@@ -14,7 +14,7 @@ https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Schedule.docx
 
 # Sept 11
 Proposal
-https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/ProposalContentAnoopjotKaurDhallu.xlsx
+https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Proposal.xlsx
 
 
 
