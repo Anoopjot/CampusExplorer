@@ -22,6 +22,7 @@ https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/DhalluBudget.
 # Week 3 (sept 18)
 Schedule.
 https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Schedule.docx
+![schedule](https://user-images.githubusercontent.com/43186746/47381544-468c3180-d6ce-11e8-9cdc-4192aad52ea7.PNG)
 
 # Week 2 (Sept 11)
 Proposal.
