@@ -1,8 +1,10 @@
 # Humber Campus Navigator
-Purpose:For students it is hard to navigate within the campus. We are designing an application which helps students to navigate within the campus from any point to any point in short time and less distance and it will show temperature and pressure at that point.This project will consist various sensors,from them, temperature sensor(TMP36), pressure sensor(STM32) and 9-axis IMU(LSM9DS0) are the major ones.
+For students it is hard to navigate within the campus. We are designing an application which helps students to navigate within the campus from any point to any point in short time and less distance and it will show temperature and pressure at that point.This project will consist various sensors,from them, temperature sensor(TMP36), pressure sensor(STM32) and 9-axis IMU(LSM9DS0) are the major ones.
 
 # Week 7 (Oct 16)
 Pseudo Code Assignment & Acquisitions.
+
+![uml diagram](https://user-images.githubusercontent.com/43186746/47382346-18a7ec80-d6d0-11e8-9234-cf99b2376885.PNG)
 
 # Week 6 (Oct 9)
 Reading Week.
@@ -30,8 +32,8 @@ https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Proposal.xlsx
 ![proposal](https://user-images.githubusercontent.com/43186746/47381229-7b4bb900-d6cd-11e8-87fd-4e33a69ab027.PNG)
 
 # Week 1 (Sept 4)
-Main agendas were Introduction, Crib pi, chosing sensor and project.
-In week1, course outline and critical path of the course was introduced, and the professor told us what we will be doing in coming weeks, then, there was description of the hardware we will be using in the course and in the project.   
+Main agendas of this week were Introduction, Crib pi, chosing sensor and project.
+In week1, course outline and critical path of the course was introduced, and the professor told us what we will be doing in the coming weeks, then, there was a description of the hardware we will be using in the course and in the project.   
 
 
 
