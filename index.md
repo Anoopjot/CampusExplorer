@@ -16,16 +16,19 @@ These are the invoices for the products which i ordered. I ordered them with my 
 # Week 4 (Sept 25)
 Budget.
 https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/DhalluBudget.xlsx
+
 ![budget](https://user-images.githubusercontent.com/43186746/47381158-45a6d000-d6cd-11e8-8b83-cc5276efb558.PNG)
 
 # Week 3 (sept 18)
 Schedule.
 https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Schedule.docx
+
 ![schedule](https://user-images.githubusercontent.com/43186746/47381544-468c3180-d6ce-11e8-9cdc-4192aad52ea7.PNG)
 
 # Week 2 (Sept 11)
 Proposal.
 https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Proposal.xlsx
+
 ![proposal](https://user-images.githubusercontent.com/43186746/47381229-7b4bb900-d6cd-11e8-87fd-4e33a69ab027.PNG)
 
 # Week 1 (Sept 4)
