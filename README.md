@@ -1,5 +1,5 @@
 # Humber Campus Navigator
-Purpose:For students it is hard to navigate within the campus. We are designing an application which helps students to navigate within the campus from any point to any point in short time and less distance and it will show temperature and pressure at that point.In this project we will be using temperature sensor(TMP36), pressure sensor(STM32) and 9-axis IMU (0x1D for Accel/Mag, *0x6A for Gyro(LSM9DS0))
+Purpose:For students it is hard to navigate within the campus. We are designing an application which helps students to navigate within the campus from any point to any point in short time and less distance and it will show temperature and pressure at that point.This project will consist various sensors,from them, temperature sensor(TMP36), pressure sensor(STM32) and 9-axis IMU(LSM9DS0) are the major ones.
 
 # Week 7 (Oct 16)
 Pseudo Code Assignment & Acquisitions.
