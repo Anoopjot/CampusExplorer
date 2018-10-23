@@ -29,3 +29,4 @@ https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Proposal.xlsx
 Main agendas were Introduction, Crib pi, chosing sensor and project.
 In week1, course outline and critical path of the course was introduced, and the professor told us what we will be doing in coming weeks, then, there was description of the hardware we will be using in the course and in the project.   
 
+.
