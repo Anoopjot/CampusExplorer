@@ -10,14 +10,13 @@ Reading Week.
 Parts Ordered.
 These are the invoices for the products which i ordered. I ordered them with my group member Bettin Jacob, The products include: Raspberry pi b+, 32GB SD-Card, TMP36-Temperature Sensor,ATtiny85 8-bit 20 MHz AVR Microcontroller, Jumper Wires & 8 Pin DIP Socket.
 
-![robotshop](https://user-images.githubusercontent.com/43186746/46379250-33a4b500-c66c-11e8-8274-a6564f25f0e2.png)
-![amazon](https://user-images.githubusercontent.com/43186746/46379252-356e7880-c66c-11e8-818d-0680ee2ceb0c.png)
+![amazon](https://user-images.githubusercontent.com/43186746/47382069-6ff98d00-d6cf-11e8-9d06-b1229dcff945.png)
+![robotshop](https://user-images.githubusercontent.com/43186746/47382076-7425aa80-d6cf-11e8-9528-d910223162a2.png) 
 
 # Week 4 (Sept 25)
 Budget.
 https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/DhalluBudget.xlsx
 ![budget](https://user-images.githubusercontent.com/43186746/47381158-45a6d000-d6cd-11e8-8b83-cc5276efb558.PNG)
-
 
 # Week 3 (sept 18)
 Schedule.
@@ -32,5 +31,3 @@ https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Proposal.xlsx
 # Week 1 (Sept 4)
 Main agendas were Introduction, Crib pi, chosing sensor and project.
 In week1, course outline and critical path of the course was introduced, and the professor told us what we will be doing in coming weeks, then, there was description of the hardware we will be using in the course and in the project.   
-
-.
