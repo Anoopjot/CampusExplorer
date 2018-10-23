@@ -26,6 +26,7 @@ https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Schedule.docx
 # Week 2 (Sept 11)
 Proposal.
 https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Proposal.xlsx
+![proposal](https://user-images.githubusercontent.com/43186746/47381229-7b4bb900-d6cd-11e8-87fd-4e33a69ab027.PNG)
 
 # Week 1 (Sept 4)
 Main agendas were Introduction, Crib pi, chosing sensor and project.
