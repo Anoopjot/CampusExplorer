@@ -1,5 +1,8 @@
 # Humber Campus Navigator
-For students it is hard to navigate within the campus. We are designing an application which helps students to navigate within the campus from any point to any point in short time and less distance and it will show temperature and pressure at that point.This project will consist various sensors,from them, temperature sensor(TMP36), pressure sensor(STM32) and 9-axis IMU(LSM9DS0) are the major ones.
+For students it is hard to navigate within the campus. We are designing an application which helps students to navigate within the campus from any point to any point in short time and less distance and it will show temperature and pressure at that point.This project will consist of various sensors,from them, temperature sensor(TMP36), pressure sensor(STM32) and 9-axis IMU(LSM9DS0) are the major ones.
+
+# Week 8 (Oct 23)
+This week was breadboard assembly milestone, but in my case, before assembling my breadboard, i need to program my ATtiny85 microcontroller - For that-> First i programmed arduino, so that it can program ATtiny85, then i have to program Attiny85, so that it can convert my voltage reading into analog reading and then to digital. And then, Finally, i need to program my raspberry pi, so that it can request data from ATtiny85 and display it.So, for this week i programmed my arduino and tested it using a test program(blink Led) anfd it was successful, and the led was blinking.
 
 # Week 7 (Oct 16)
 Pseudo Code Assignment & Acquisitions.
