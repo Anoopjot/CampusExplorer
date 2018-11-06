@@ -4,6 +4,8 @@ For students it is hard to navigate within the campus. We are designing an appli
 # Week 8 (Oct 23)
 This week was breadboard assembly milestone, but in my case, before assembling my breadboard, i need to program my ATtiny85 microcontroller - For that-> First i programmed arduino, so that it can program ATtiny85, then i have to program Attiny85, so that it can convert my voltage reading into analog reading and then to digital. And then, Finally, i need to program my raspberry pi, so that it can request data from ATtiny85 and display it.So, for this week i programmed my arduino and tested it using a test program(blink Led) anfd it was successful, and the led was blinking.
 
+![blinkled](https://user-images.githubusercontent.com/43186746/48095922-f3dd6a00-e1e3-11e8-8093-7cb11453cb22.jpeg)
+
 # Week 7 (Oct 16)
 Pseudo Code Assignment & Acquisitions.
 
