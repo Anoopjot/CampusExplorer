@@ -14,8 +14,7 @@ This week was breadboard assembly milestone, but in my case, before assembling m
 
 # Week 7 (Oct 16)
 Pseudo Code Assignment & Acquisitions.
-
-![image](https://user-images.githubusercontent.com/43186746/48097411-d14d5000-e1e7-11e8-960c-b6e68204030d.png)
+![image](https://user-images.githubusercontent.com/43186746/48097742-b7603d00-e1e8-11e8-8829-0c6aca0ae9b1.png)
 ![image](https://user-images.githubusercontent.com/43186746/48097543-3608aa80-e1e8-11e8-91e9-c68e68bd67a2.png)
 ![image](https://user-images.githubusercontent.com/43186746/48097564-43be3000-e1e8-11e8-8647-91e5a5893f2d.png)
 ![uml diagram](https://user-images.githubusercontent.com/43186746/47382346-18a7ec80-d6d0-11e8-9234-cf99b2376885.PNG)
