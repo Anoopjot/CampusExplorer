@@ -1,6 +1,8 @@
 # Humber Campus Navigator
 For students it is hard to navigate within the campus. We are designing an application which helps students to navigate within the campus from any point to any point in short time and less distance and it will show temperature and pressure at that point.This project will consist various sensors,from them, temperature sensor(TMP36), pressure sensor(STM32) and 9-axis IMU(LSM9DS0) are the major ones.
 
+# Week 8 (Oct 23)
+![blinkled](https://user-images.githubusercontent.com/43186746/48095922-f3dd6a00-e1e3-11e8-8093-7cb11453cb22.jpeg)
 # Week 7 (Oct 16)
 Pseudo Code Assignment & Acquisitions.
 
