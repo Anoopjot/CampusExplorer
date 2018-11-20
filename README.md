@@ -1,6 +1,9 @@
 # Humber Campus Navigator
 For students it is hard to navigate within the campus. We are designing an application which helps students to navigate within the campus from any point to any point in short time and less distance and it will show temperature and pressure at that point.This project will consist of various sensors,from them, temperature sensor(TMP36), pressure sensor(STM32) and 9-axis IMU(LSM9DS0) are the major ones.
 
+# Week 11
+To reduce the confusion from week 10 I will write the build instructions for the steps I took in week 9 in readme.md
+
 # Week 10 (Nov 6)
 Although, this week is PCB soldering milestone, but i am still trying to figure out my coding part for my raspberry pi, so that it can request data from ATtiny85 and display it. I am little behind according to my Schedule, but before i was kind of confused(how i am going to do my sensor project), but now i figured out the steps i need to follow, in order to accomplish my hardware part, After completing my raspberry pi coding part, i will try my best to pace up for my project, I don't have to do soldering part, i just have to assemble my sensor, ATtiny85 with raspberry pi, then i should be good. 
 
