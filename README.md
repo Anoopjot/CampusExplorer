@@ -21,10 +21,14 @@ Arduino Pin 13   --->  ATtiny Pin 7
 ->Upload the sketch to Arduino.
 ->Arduino is now configured as a serial programmer that can program other chips.
 4. Download the ATtiny85 core files
-[From this link]
-
-
-
+[From this link](http://highlowtech.org/?p=1229)
+Unzip the .zip folder and save it in Arduino>libraries>
+5. Program the ATtiny85
+Select from the top menu:
+Tools --> Board --> ATtiny85 (w/ Arduino as ISP)
+Then open the basic blink example and change the pin number from 13 to 0.
+Finally, upload it.
+6. Test the circuit.
 
 
 # Still needed for week 15
