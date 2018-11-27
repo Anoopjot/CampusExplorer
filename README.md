@@ -2,8 +2,7 @@
 
 [Follow this link](https://quadmeup.com/attiny85-light-sensor-i2c-slave-device/)
 
-#Step1: Programming the Arduino, to program the ATtiny85
-''''
+# Step1: Programming the Arduino, to program the ATtiny85
 1. Stuff needed and used:-
 - Arduino
 - Breadboard
@@ -33,8 +32,8 @@ Then open the basic blink example and change the pin number from 13 to 0 and upl
 6. Tested the circuit.
 ![blinkled](https://user-images.githubusercontent.com/43186746/48095922-f3dd6a00-e1e3-11e8-8093-7cb11453cb22.jpeg)
 and it shows that now arduino can program the ATtiny 85.
-''''
-#Step2: 
+
+# Step2: 
 
 # Still needed for week 15
 Introduction using a system diagram
