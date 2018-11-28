@@ -254,6 +254,8 @@ void loop() {
 and it gave me this output(it is not the correct output, but it is in the pattern which we are looking for):
 [sceenshotoutput.docx](https://github.com/HumberCampusExplorer/CampusExplorer/files/2622535/sceenshotoutput.docx)
 
+And now i am working on modifing the code so that it can show the correct and needed output.
+
 
 # Still needed for week 15
 Introduction using a system diagram
