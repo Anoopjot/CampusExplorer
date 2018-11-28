@@ -251,7 +251,8 @@ void loop() {
   }
 }
 ```
-and it gave me this output:
+and it gave me this output(it is not the correct output, but it is in the pattern which we are looking for):
+[sceenshotoutput.docx](https://github.com/HumberCampusExplorer/CampusExplorer/files/2622535/sceenshotoutput.docx)
 
 
 # Still needed for week 15
