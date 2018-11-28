@@ -12,12 +12,12 @@
 - hookup wires
 2. Wire the circuit 
 Connect the Arduino to the ATtiny as follows:
-Arduino +5V      --->  ATtiny Pin 8
-Arduino Ground   --->  ATtiny Pin 4
-Arduino Pin 10   --->  ATtiny Pin 1
-Arduino Pin 11   --->  ATtiny Pin 5
-Arduino Pin 12   --->  ATtiny Pin 6
-Arduino Pin 13   --->  ATtiny Pin 7
+- Arduino +5V      --->  ATtiny Pin 8,
+- Arduino Ground   --->  ATtiny Pin 4,
+- Arduino Pin 10   --->  ATtiny Pin 1,
+- Arduino Pin 11   --->  ATtiny Pin 5,
+- Arduino Pin 12   --->  ATtiny Pin 6,
+- Arduino Pin 13   --->  ATtiny Pin 7
 3. Program the Arduino, so that it can program the microcontroller(ATtiny85), using "Arduino" software. To do that 3 steps need to be follow: 
 ->Select the "ArduinoISP" sketch from the "Examples" menu.
 ->Upload the sketch to Arduino.
@@ -33,7 +33,7 @@ Then open the basic blink example and change the pin number from 13 to 0 and upl
 ![blinkled](https://user-images.githubusercontent.com/43186746/48095922-f3dd6a00-e1e3-11e8-8093-7cb11453cb22.jpeg)
 and it shows that now arduino can program the ATtiny 85.
 
-# Step2: 
+# Step2: Program ATtiny85 so that it can retrieve data(Analog) from sensor(TMP36) and convert it to digital and send it to Raspberry pi, 
 
 # Still needed for week 15
 Introduction using a system diagram
