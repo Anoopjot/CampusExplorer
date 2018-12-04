@@ -10,7 +10,7 @@
  */
 #define MAX_TICK 20
 
-#define STATUS_PIN_1 4
+#define STATUS_PIN_1 1
 #define ADC_PIN A3
 
 #define LPF_FACTOR 0.5
@@ -44,8 +44,9 @@ const byte reg_size = sizeof(i2c_regs);
  * 8=4 sec,
  * 9= 8sec
  */
-void setup_watchdog(int ii) {
+//for resetting the microcontroller automatically and to avoid malfunction of the chip
 
+void setup_watchdog(int ii) {
   byte bb;
   int ww;
   if (ii > 9 ) ii=9;
@@ -112,7 +113,7 @@ void setup() {
 
 unsigned int tick;    //= 0;
 unsigned long lastReadout; //= 0;
-
+//to take the average of the analog values
 int smooth(int data, float filterVal, float smoothedVal){
 
   if (filterVal > 1){      // check to make sure params are within range
