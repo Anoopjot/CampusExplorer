@@ -10,7 +10,7 @@ void setup() {
 }
 
 void loop() {
-  Wire.requestFrom(0x30, 2);    // request 2 bytes from slave device #0x13
+  Wire.requestFrom(0x30, 2);    // request 2 bytes from slave device #0x30
 
   int i = 0;
   unsigned int readout = 0;
