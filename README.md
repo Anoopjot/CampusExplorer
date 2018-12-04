@@ -1,12 +1,27 @@
 # Creating i2c device(using ATtiny85, TMP36 and Raspberry pi)
-It involves various steps and the steps goes as follows:
-1.) Programming the Arduino
-2.) Programming the ATtiny85
 
-# Steps to program ATTiny85
+It involves various steps and the steps goes as follows:
+1. [Programming the Arduino](https://github.com/HumberCampusExplorer/CampusExplorer/edit/master/README.md#Step1- Programming the Arduino, to program the ATtiny85)
+2. [Bill of Materials and Required Tools](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
+3. [Instructions](https://github.com/six0four/MicroRover#3-instructions)
+4. [Future Development](https://github.com/six0four/MicroRover#4-future-development)
+
+1.) Programming the Arduino(So that it can program ATtiny85).
+
+2.) Programming the ATtiny85.
+
+3.)wiring the circuit(Wiring Rapberry pi with ATtiny and TMP36 over i2c).
+
+4.)Power up the circuit.
+
+5.)Put the code on Raspberry pi.
+
+6.)Run it(it should work).
+
+## Steps to program ATTiny85
 [Follow this link](https://quadmeup.com/attiny85-light-sensor-i2c-slave-device/)
 
-# Step1: Programming the Arduino, to program the ATtiny85
+## Step1: Programming the Arduino, to program the ATtiny85
 1. Stuff needed and used:-
 - Arduino
 - Breadboard
@@ -56,7 +71,7 @@ Then open the basic blink example and change the pin number from 13 to 0 and upl
 ![blinkled](https://user-images.githubusercontent.com/43186746/48095922-f3dd6a00-e1e3-11e8-8093-7cb11453cb22.jpeg)
 and it shows that now arduino can program the ATtiny 85.
 
-# Step2: Program ATtiny85 
+## Step2: Program ATtiny85 
 so that it can retrieve data(Analog value) from sensor(TMP36) and convert it to digital and send it to Raspberry pi, when requested.
 
 First i am testing my circuit and program on Arduino(instead of Raspberry pi directly), to make troubleshooting easier.
