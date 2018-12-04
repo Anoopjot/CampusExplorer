@@ -1,7 +1,7 @@
 # Creating i2c device(using ATtiny85, TMP36 and Raspberry pi)
 
 It involves various steps and the steps goes as follows:
-1. [Programming the Arduino](https://github.com/HumberCampusExplorer/CampusExplorer/edit/master/README.md#Step1- Programming the Arduino, to program the ATtiny85)
+1. [Programming the Arduino](https://github.com/HumberCampusExplorer/CampusExplorer/#Step1- Programming the Arduino, to program the ATtiny85)
 2. [Bill of Materials and Required Tools](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
 3. [Instructions](https://github.com/six0four/MicroRover#3-instructions)
 4. [Future Development](https://github.com/six0four/MicroRover#4-future-development)
