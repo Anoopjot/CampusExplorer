@@ -1,5 +1,9 @@
-# Steps to program ATTiny85
+# Creating i2c device(using ATtiny85, TMP36 and Raspberry pi)
+It involves various steps and the steps goes as follows:
+1.) Programming the Arduino
+2.) Programming the ATtiny85
 
+# Steps to program ATTiny85
 [Follow this link](https://quadmeup.com/attiny85-light-sensor-i2c-slave-device/)
 
 # Step1: Programming the Arduino, to program the ATtiny85
