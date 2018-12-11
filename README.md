@@ -3,10 +3,15 @@
 It involves various steps and the steps goes as follows:
 
 Step 1. [Programming the Arduino(so that it can program ATtiny85)](https://github.com/HumberCampusExplorer/CampusExplorer#1-programming-the-arduino-to-program-the-attiny85)
+
 Step 2. [Programming the ATtiny85](https://github.com/HumberCampusExplorer/CampusExplorer#2-programming-the-attiny85)
+
 Step 3. [Wiring the circuit(Wiring Arduino + ATtiny85 + TMP36)](https://github.com/HumberCampusExplorer/CampusExplorer#3-wiring-the-circuit)
+
 Step 4. [Programming the Arduino- To act as a master device](https://github.com/HumberCampusExplorer/CampusExplorer#4-programming-the-Arduino-to-act-as-a-master-device)
+
 Step 5. [Power up the circuit](https://github.com/HumberCampusExplorer/CampusExplorer#5-power-up-the-circuit)
+
 Step 6. [Testing](https://github.com/HumberCampusExplorer/CampusExplorer#6-testing)
 
 ## Steps to program ATTiny85
