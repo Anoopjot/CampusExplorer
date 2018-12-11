@@ -228,6 +228,7 @@ ATtiny 85 & TMP36
 - Pin2 (ATtiny85) -> centre pin(tmp36)
 - Pin 1(TMP36) -> 5v
 - Pin3 (TMP36) -> Ground
+.[To check pins of TMP360()
 
 Arduino & ATtiny85
 - Pin4(ATtiny85) - Ground
