@@ -1,10 +1,10 @@
 # Creating i2c Device(using ATtiny85, TMP36 and Raspberry pi)
 
 It involves various steps and the steps goes as follows:
+
 1. [Programming the Arduino](https://github.com/HumberCampusExplorer/CampusExplorer#Step1-programming-the-arduino-,-to-program-the-attiny85)
 2. [Programming the ATtiny85](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
-3. [Instructions](https://github.com/six0four/MicroRover#3-instructions)
-4. [Future Development](https://github.com/six0four/MicroRover#4-future-development)
+3. [Programming the Arduino- To act as a master device](https://github.com/six0four/MicroRover#3-instructions)
 
 1.) Programming the Arduino(So that it can program ATtiny85).
 
@@ -76,46 +76,7 @@ so that it can retrieve data(Analog value) from sensor(TMP36) and convert it to 
 
 First i am testing my circuit and program on Arduino(instead of Raspberry pi directly), to make troubleshooting easier.
 
-For that i uploaded this code on arduino
-```
-#include <Wire.h>
-
-
-int i =0;
-unsigned int readout = 0;
-
-void setup() {
-  Wire.begin();        // join i2c bus (address optional for master)
-  Serial.begin(9600);  // start serial for output
-}
-
-void loop(){
-
-
-Wire.requestFrom(0x30, 2);    // request 2 bytes from slave device #0x30
-
-int i =0;
-unsigned int readout = 0;
-
-while (Wire.available()) { // slave may send less than requested
-byte c = Wire.read(); // receive a byte as character
-
-if (i == 0) {
-    readout = c;
-} else {
-    readout = readout << 8;
-    readout = readout + c;
-}
-
-i++;
-}
-
-Serial.println(readout);
-
-}
-
-```
-and this on ATtiny85
+For that i uploaded this code on ATtiny85
 ```
 /*
  * Set I2C Slave address. You can have multiple sensors with different addresses
@@ -270,18 +231,55 @@ void loop() {
   }
 }
 ```
+
+# Step3 Programming the Arduino- To act as a master device
+
+For this i just uploaded a sketch to arduino.
+
+```
+
+#include <Wire.h>
+
+int i = 0;
+unsigned int readout = 0;
+
+void setup() {
+  Serial.begin(9600);  // start serial for output
+  Serial.println("starting");
+  Wire.begin();        // join i2c bus (address optional for master)
+}
+
+void loop() {
+  Wire.requestFrom(0x30, 2);    // request 2 bytes from slave device #0x13
+
+  int i = 0;
+  unsigned int readout = 0;
+  while (Wire.available()) { // slave may send less than requested
+    byte byteRecieved = Wire.read(); // receive a byte as character
+
+    if (i == 0) {
+      readout = byteRecieved;
+    } else {
+      readout = readout << 8;
+      readout = readout + byteRecieved;
+    }
+
+    i++;
+  }
+  
+ Serial.println(readout);
+ delay(13);
+
+}
+```
+Then, after this I checked the output at Serial Monitor 
+
 and it gave me this output(it is not the correct output, but it is in the pattern which we are looking for):
 [sceenshotoutput.docx](https://github.com/HumberCampusExplorer/CampusExplorer/files/2622535/sceenshotoutput.docx)
 
 ![output](https://user-images.githubusercontent.com/43186746/49823533-ea4ca200-fd4d-11e8-982f-1c77af3e9c27.png)
 
 And now i am working on modifing the code so that it can show the correct and needed output.
-
-# Step3 Programming the Arduino- To act as a master device
-
-For this i just uploaded a sketch to arduino.
-
-
 
 # Still needed for week 15
 Introduction using a system diagram
