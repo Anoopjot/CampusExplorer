@@ -273,6 +273,8 @@ void loop() {
 and it gave me this output(it is not the correct output, but it is in the pattern which we are looking for):
 [sceenshotoutput.docx](https://github.com/HumberCampusExplorer/CampusExplorer/files/2622535/sceenshotoutput.docx)
 
+![output](https://user-images.githubusercontent.com/43186746/49823533-ea4ca200-fd4d-11e8-982f-1c77af3e9c27.png)
+
 And now i am working on modifing the code so that it can show the correct and needed output.
 
 
