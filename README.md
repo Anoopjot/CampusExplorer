@@ -3,11 +3,11 @@
 It involves various steps and the steps goes as follows:
 
 1. [Programming the Arduino(so that it can program ATtiny85)](https://github.com/HumberCampusExplorer/CampusExplorer#1-programming-the-arduino-to-program-the-attiny85)
-2. [Programming the ATtiny85](https://github.com/HumberCampusExplorer/CampusExplorer#Step2-:-programming-the-attiny85)
-3. [Wiring the circuit(Wiring Arduino + ATtiny85 + TMP36)](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
-4. [Programming the Arduino- To act as a master device](https://github.com/six0four/MicroRover#3-instructions)
-5. [Power up the circuit](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
-6. [Test it](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
+2. [Programming the ATtiny85](https://github.com/HumberCampusExplorer/CampusExplorer#2-programming-the-attiny85)
+3. [Wiring the circuit(Wiring Arduino + ATtiny85 + TMP36)](https://github.com/HumberCampusExplorer/CampusExplorer#3-programming-the-attiny85)
+4. [Programming the Arduino- To act as a master device](https://github.com/HumberCampusExplorer/CampusExplorer#4-programming-the-Arduino-to-act-as-a-master-device)
+5. [Power up the circuit](https://github.com/HumberCampusExplorer/CampusExplorer#5-power-up-the-circuit)
+6. [Test it](https://github.com/HumberCampusExplorer/CampusExplorer#6-testing)
 
 ## Steps to program ATTiny85
 [Follow this link](https://quadmeup.com/attiny85-light-sensor-i2c-slave-device/)
@@ -62,7 +62,7 @@ Then open the basic blink example and change the pin number from 13 to 0 and upl
 ![blinkled](https://user-images.githubusercontent.com/43186746/48095922-f3dd6a00-e1e3-11e8-8093-7cb11453cb22.jpeg)
 and it shows that now arduino can program the ATtiny 85.
 
-## Step2 Programming the ATtiny85 
+## 2 Programming the ATtiny85 
 so that it can retrieve data(Analog value) from sensor(TMP36) and convert it to digital and send it to Raspberry pi, when requested.
 
 First i am testing my circuit and program on Arduino(instead of Raspberry pi directly), to make troubleshooting easier.
@@ -222,7 +222,7 @@ void loop() {
   }
 }
 ```
-# Step3 Wiring the circuit
+## 3 Wiring the circuit
 (Wiring Arduino + ATtiny85 + TMP36)
 
 ATtiny 85 & TMP36
@@ -246,7 +246,7 @@ Then attach the auduino with USB cable type A/B with computer to power up Arduin
 
 ![arduino attiny85](https://user-images.githubusercontent.com/43186746/49829572-c5136000-fd5c-11e8-8961-d992e243ce99.jpg)
 
-# Step4 Programming the Arduino to act as a master device
+# 4 Programming the Arduino to act as a master device
 
 For this i just uploaded a sketch to arduino.
 
@@ -292,10 +292,10 @@ void loop() {
 }
 ```
 
-# Step 5 Power up the circuit
+# 5 Power up the circuit
 Now attach (USB cable type A/B) to computer, to power it and complete the circuit and test it. 
 
-# Step6 Testing 
+# 6 Testing 
 Then, after completing all the steps I checked the output at Serial Monitor. 
 
 and it gave me this output(it is not the correct output, but it is in the pattern which we are looking for):
