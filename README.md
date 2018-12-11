@@ -230,6 +230,7 @@ ATtiny 85 & TMP36
 - Pin3 (TMP36) -> Ground
 
 To check pins of TMP36
+
 ![tmp36pinout](https://user-images.githubusercontent.com/43186746/49828583-461d2800-fd5a-11e8-84dd-abef1abda002.gif)
 
 
