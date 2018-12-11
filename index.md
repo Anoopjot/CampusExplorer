@@ -1,8 +1,17 @@
 # Humber Campus Navigator
 For students it is hard to navigate within the campus. We are designing an application which helps students to navigate within the campus from any point to any point in short time and less distance and it will show temperature and pressure at that point.This project will consist various sensors,from them, temperature sensor(TMP36), pressure sensor(STM32) and 9-axis IMU(LSM9DS0) are the major ones.
 
+# Week 15 
+Updated Readme.md and index.md to put instructions in it and explained the processes and steps I followed to get there.
+
+# Week 14 
+Presented Idea, progress, and result to class and Professor, and discussed with Kelly and Vlad and tried to get it work gave last try on Friday.But it it still showing the same output.
+
 # Week 13
 [Presentation]https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/Presentation.pptx
+
+# Week 12
+Tried my best to get it work, but i am getting some output but not the desired.
 
 # Week 11
 To reduce the confusion from week 10 I will write the build instructions for the steps I took in week 9 in [readme.md](https://github.com/HumberCampusExplorer/CampusExplorer/blob/master/README.md)
