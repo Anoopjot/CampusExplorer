@@ -277,6 +277,11 @@ and it gave me this output(it is not the correct output, but it is in the patter
 
 And now i am working on modifing the code so that it can show the correct and needed output.
 
+# Step3 Programming the Arduino- To act as a master device
+
+For this i just uploaded a sketch to arduino.
+
+
 
 # Still needed for week 15
 Introduction using a system diagram
