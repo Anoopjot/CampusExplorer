@@ -2,7 +2,7 @@
 
 It involves various steps and the steps goes as follows:
 
-1. [Programming the Arduino(so that it can program ATtiny85)](https://github.com/HumberCampusExplorer/CampusExplorer#Step1-programming-the-arduino-,-to-program-the-attiny85)
+1. [Programming the Arduino(so that it can program ATtiny85)](https://github.com/HumberCampusExplorer/CampusExplorer#Step1-:-programming-the-arduino-,-to-program-the-attiny85)
 2. [Programming the ATtiny85](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
 3. [Wiring the circuit(Wiring Arduino + ATtiny85 + TMP36)](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
 4. [Programming the Arduino- To act as a master device](https://github.com/six0four/MicroRover#3-instructions)
@@ -303,13 +303,3 @@ and it gave me this output(it is not the correct output, but it is in the patter
 
 And now i am working on modifing the code so that it can show the correct and needed output.
 
-
-# Still needed for week 15
-Introduction using a system diagram
-Bill of Materials/Budget
-Time Commitment
-Mechanical Assembly
-PCB / Soldering
-Power Up
-Unit Testing
-Production Testing
