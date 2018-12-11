@@ -2,7 +2,7 @@
 
 It involves various steps and the steps goes as follows:
 
-1. [Programming the Arduino(so that it can program ATtiny85)](https://github.com/HumberCampusExplorer/CampusExplorer#step1-:-programming-the-arduino-,-to-program-the-attiny85)
+1. [Programming the Arduino(so that it can program ATtiny85)](https://github.com/HumberCampusExplorer/CampusExplorer##1-programming-the-arduino-to-program-the-attiny85)
 2. [Programming the ATtiny85](https://github.com/HumberCampusExplorer/CampusExplorer#Step2-:-programming-the-attiny85)
 3. [Wiring the circuit(Wiring Arduino + ATtiny85 + TMP36)](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
 4. [Programming the Arduino- To act as a master device](https://github.com/six0four/MicroRover#3-instructions)
@@ -12,7 +12,7 @@ It involves various steps and the steps goes as follows:
 ## Steps to program ATTiny85
 [Follow this link](https://quadmeup.com/attiny85-light-sensor-i2c-slave-device/)
 
-## Step1 Programming the Arduino to program the ATtiny85
+## 1 Programming the Arduino to program the ATtiny85
 1. Stuff needed and used:-
 - Arduino
 - Breadboard
