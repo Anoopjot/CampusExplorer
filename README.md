@@ -292,10 +292,10 @@ void loop() {
 ```
 
 # Step 5 : Power up the circuit
-Now attach (USB cable type A/B) to computer and complete the circuit and test it. 
+Now attach (USB cable type A/B) to computer, to power it and complete the circuit and test it. 
 
 # Step6 : Test it
-Then, after completing all the steps I checked the output at Serial Monitor 
+Then, after completing all the steps I checked the output at Serial Monitor. 
 
 and it gave me this output(it is not the correct output, but it is in the pattern which we are looking for):
 
