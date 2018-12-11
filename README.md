@@ -1,4 +1,4 @@
-# Creating i2c Device(using ATtiny85, TMP36 and Raspberry pi)
+# Creating i2c Device(using ATtiny85, TMP36 and Arduino)
 
 It involves various steps and the steps goes as follows:
 
