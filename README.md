@@ -2,21 +2,12 @@
 
 It involves various steps and the steps goes as follows:
 
-1. [Programming the Arduino](https://github.com/HumberCampusExplorer/CampusExplorer#Step1-programming-the-arduino-,-to-program-the-attiny85)
+1. [Programming the Arduino(so that it can program ATtiny85)](https://github.com/HumberCampusExplorer/CampusExplorer#Step1-programming-the-arduino-,-to-program-the-attiny85)
 2. [Programming the ATtiny85](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
-3. [Programming the Arduino- To act as a master device](https://github.com/six0four/MicroRover#3-instructions)
-
-1.) Programming the Arduino(So that it can program ATtiny85).
-
-2.) Programming the ATtiny85.
-
-3.)wiring the circuit(Wiring Rapberry pi with ATtiny and TMP36 over i2c).
-
-4.)Power up the circuit.
-
-5.)Put the code on Raspberry pi.
-
-6.)Run it(it should work).
+3. [Wiring the circuit(Wiring Arduino + ATtiny85 + TMP36)](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
+4. [Programming the Arduino- To act as a master device](https://github.com/six0four/MicroRover#3-instructions)
+5. [Power up the circuit](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
+6. [Test it](https://github.com/six0four/MicroRover#2-bill-of-materials-and-required-tools)
 
 ## Steps to program ATTiny85
 [Follow this link](https://quadmeup.com/attiny85-light-sensor-i2c-slave-device/)
@@ -71,7 +62,7 @@ Then open the basic blink example and change the pin number from 13 to 0 and upl
 ![blinkled](https://user-images.githubusercontent.com/43186746/48095922-f3dd6a00-e1e3-11e8-8093-7cb11453cb22.jpeg)
 and it shows that now arduino can program the ATtiny 85.
 
-## Step2: Program ATtiny85 
+## Step2: Programming the ATtiny85 
 so that it can retrieve data(Analog value) from sensor(TMP36) and convert it to digital and send it to Raspberry pi, when requested.
 
 First i am testing my circuit and program on Arduino(instead of Raspberry pi directly), to make troubleshooting easier.
@@ -231,13 +222,33 @@ void loop() {
   }
 }
 ```
+# Step3: Wiring the circuit(Wiring Arduino + ATtiny85 + TMP36)
 
-# Step3 Programming the Arduino- To act as a master device
+ATtiny 85 & TMP36
+- Pin2 (ATtiny85) -> centre pin(tmp36)
+- Pin 1(TMP36) -> 5v
+- Pin3 (TMP36) -> Ground
+
+Arduino & ATtiny85
+- Pin4(ATtiny85) - Ground
+- Pin8(ATtiny85) - Vcc(5v)
+- Pin5(ATtiny85) - SDA (Arduino)
+- Pin7(ATtiny85) -SCL (Arduino)
+We need to insert pull-up resistor (nearly 4.7k ohm ) between pin 5 (ATtiny85) and Vcc && between pin 7 (ATtiny85) and Vcc.
+
+Then attach the auduino with USB cable type A/B with computer to power up Arduino.
+
+# Step4: Programming the Arduino- To act as a master device
 
 For this i just uploaded a sketch to arduino.
 
-```
+For that i changed the options from ARDUINO software=> 
+- Tools-> Board:"Arduino/Genuino uno" and 
+- Tools-> Programmer:"AVR ISP"
 
+AND then uploaded from "sketch"
+
+```
 #include <Wire.h>
 
 int i = 0;
@@ -272,14 +283,19 @@ void loop() {
 
 }
 ```
-Then, after this I checked the output at Serial Monitor 
+
+# Step 5 : Power up the circuit
+Now attach (USB cable type A/B) to computer and complete the circuit and test it. 
+
+# Step6 : Test it
+Then, after completing all the steps I checked the output at Serial Monitor 
 
 and it gave me this output(it is not the correct output, but it is in the pattern which we are looking for):
-[sceenshotoutput.docx](https://github.com/HumberCampusExplorer/CampusExplorer/files/2622535/sceenshotoutput.docx)
 
 ![output](https://user-images.githubusercontent.com/43186746/49823533-ea4ca200-fd4d-11e8-982f-1c77af3e9c27.png)
 
 And now i am working on modifing the code so that it can show the correct and needed output.
+
 
 # Still needed for week 15
 Introduction using a system diagram
