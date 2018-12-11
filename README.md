@@ -243,6 +243,8 @@ We need to insert pull-up resistor (nearly 4.7k ohm ) between pin 5 (ATtiny85) a
 
 Then attach the auduino with USB cable type A/B with computer to power up Arduino.
 
+![arduino attiny85](https://user-images.githubusercontent.com/43186746/49829572-c5136000-fd5c-11e8-8961-d992e243ce99.jpg)
+
 # Step4: Programming the Arduino- To act as a master device
 
 For this i just uploaded a sketch to arduino.
