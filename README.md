@@ -52,9 +52,11 @@ Connect the Arduino to the ATtiny as follows:
 ->Upload the sketch to Arduino.
 ->Arduino is now configured as a serial programmer that can program other chips.
 
-4. Download the ATtiny85 core files.
+4. Add the Attiny85 core files by adding the following the following url to arduino preferences:
+https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
 
-[From this link](http://highlowtech.org/?p=1229)
+and going to board the manager and adding the board ATtiny85
+
 
 Unzip the .zip folder and save it in Arduino>libraries>
 
@@ -64,7 +66,7 @@ Select from the top menu:
 
 Tools --> Board --> ATtiny85 (w/ Arduino as ISP)
 
-Then open the basic blink example and change the pin number from 13 to 0 and upload it.
+Then open the basic blink example and change the pin number from 13 to 4 and upload it.
 
 6. Tested the circuit.
 
@@ -75,6 +77,9 @@ and it shows that now arduino can program the ATtiny 85.
 so that it can retrieve data(Analog value) from sensor(TMP36) and convert it to digital and send it to Raspberry pi, when requested.
 
 First i am testing my circuit and program on Arduino(instead of Raspberry pi directly), to make troubleshooting easier.
+For this purpose we need library, TinywireS libirary  from link
+https://github.com/nadavmatalon/TinyWireS
+
 
 For that i uploaded this code on ATtiny85
 ```
