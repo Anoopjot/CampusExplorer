@@ -250,10 +250,8 @@ Now attach (USB cable type A/B) to computer, to power it and complete the circui
 
 # 6 Testing 
 Then, after completing all the steps I checked the output at Serial Monitor. 
-
 and it gave me this output(it is not the correct output, but it is in the pattern which we are looking for):
 
-![output](https://user-images.githubusercontent.com/43186746/49823533-ea4ca200-fd4d-11e8-982f-1c77af3e9c27.png)
+![Output](https://user-images.githubusercontent.com/43186746/53996348-0e7a0e00-4106-11e9-9e12-08b857c57e84.png)
 
-And now i am working on modifing the code so that it can show the correct and needed output.
-
+At this point Project is working with the Arduino It is outputting the required readings.
