@@ -57,7 +57,6 @@ Connect the Arduino to the ATtiny as follows:
 
 4. Add the Attiny85 core files by adding the following file/Folder url to arduino preferences:
 [ATtiny_85](https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json)
-https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
 
 and going to board the manager and adding the board ATtiny85.
 Unzip the .zip folder and save it in Arduino>libraries>
@@ -74,6 +73,7 @@ Then open the basic blink example and change the pin number from 13 to 4 and upl
 6. Tested the circuit.
 
 ![blinkled](https://user-images.githubusercontent.com/43186746/48095922-f3dd6a00-e1e3-11e8-8093-7cb11453cb22.jpeg)
+![pcbwithtmp36arduino](https://user-images.githubusercontent.com/43186746/53996761-ae846700-4107-11e9-9af1-fb3bb9434271.PNG)
 and it shows that now arduino can program the ATtiny 85.
 
 ## 2 Programming the ATtiny85 
@@ -82,7 +82,6 @@ Now, we will be programming the ATtiny85 to act as slave,so that it can retrieve
 First i am testing my circuit and program on Arduino(instead of Raspberry pi directly), to make troubleshooting easier.
 For this purpose we need library, TinywireS libirary  from link
 [TinyWireS_library](https://github.com/nadavmatalon/TinyWireS)
-/*https://github.com/nadavmatalon/TinyWireS*/
 
 For that i uploaded this code on ATtiny85
 ```
