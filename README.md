@@ -42,9 +42,6 @@ Connect the Arduino to the ATtiny as follows:
 
 - Arduino Pin 13   --->  ATtiny Pin 7.
 
-![image](https://user-images.githubusercontent.com/43186746/49834282-06f6d300-fd6a-11e8-9773-d0e714a9c869.png)
-
-![breadboard](https://user-images.githubusercontent.com/43186746/49835450-34914b80-fd6d-11e8-8b03-5ed128468fc4.PNG)
 ![attiny85](https://user-images.githubusercontent.com/43186746/53997018-995c0800-4108-11e9-86b2-ac51a5be835f.PNG)
 
 3. Program the Arduino, so that it can program the microcontroller(ATtiny85), using "Arduino" software. To do that 3 steps need to be follow:
@@ -59,6 +56,7 @@ Connect the Arduino to the ATtiny as follows:
 [ATtiny_85](https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json)
 
 and going to board the manager and adding the board ATtiny85.
+
 Unzip the .zip folder and save it in Arduino>libraries>
 
 5. Program the ATtiny85
@@ -66,6 +64,7 @@ Unzip the .zip folder and save it in Arduino>libraries>
 Select from the top menu:
 
 Tools --> Board --> ATtiny85 (w/ Arduino as ISP)
+
 Change the Programmer to "Arduino as ISP".
 
 Then open the basic blink example and change the pin number from 13 to 4 and upload it.
@@ -74,6 +73,7 @@ Then open the basic blink example and change the pin number from 13 to 4 and upl
 
 ![blinkled](https://user-images.githubusercontent.com/43186746/48095922-f3dd6a00-e1e3-11e8-8093-7cb11453cb22.jpeg)
 ![pcbwithtmp36arduino](https://user-images.githubusercontent.com/43186746/53996761-ae846700-4107-11e9-9af1-fb3bb9434271.PNG)
+
 and it shows that now arduino can program the ATtiny 85.
 
 ## 2 Programming the ATtiny85 
