@@ -45,19 +45,21 @@ Connect the Arduino to the ATtiny as follows:
 ![image](https://user-images.githubusercontent.com/43186746/49834282-06f6d300-fd6a-11e8-9773-d0e714a9c869.png)
 
 ![breadboard](https://user-images.githubusercontent.com/43186746/49835450-34914b80-fd6d-11e8-8b03-5ed128468fc4.PNG)
+![PCB](https://user-images.githubusercontent.com/43186746/49835450-349need to be fixed.PNG)
 
 3. Program the Arduino, so that it can program the microcontroller(ATtiny85), using "Arduino" software. To do that 3 steps need to be follow:
 
 ->Select the "ArduinoISP" sketch from the "Examples" menu.
 ->Upload the sketch to Arduino.
+->Check and make sure, from tools, the board selected is "Arduino/Genuino Uno",Port selected is same as the port on which the arduino is connected with the computer and select the programmer "AVR ISP", otherwise it will give the error related to serial.
+-> And Finally, upload it.
 ->Arduino is now configured as a serial programmer that can program other chips.
 
-4. Add the Attiny85 core files by adding the following the following url to arduino preferences:
+4. Add the Attiny85 core files by adding the following file/Folder url to arduino preferences:
+[ATtiny_85](https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json)
 https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
 
-and going to board the manager and adding the board ATtiny85
-
-
+and going to board the manager and adding the board ATtiny85.
 Unzip the .zip folder and save it in Arduino>libraries>
 
 5. Program the ATtiny85
@@ -65,6 +67,7 @@ Unzip the .zip folder and save it in Arduino>libraries>
 Select from the top menu:
 
 Tools --> Board --> ATtiny85 (w/ Arduino as ISP)
+Change the Programmer to "Arduino as ISP".
 
 Then open the basic blink example and change the pin number from 13 to 4 and upload it.
 
@@ -74,12 +77,12 @@ Then open the basic blink example and change the pin number from 13 to 4 and upl
 and it shows that now arduino can program the ATtiny 85.
 
 ## 2 Programming the ATtiny85 
-so that it can retrieve data(Analog value) from sensor(TMP36) and convert it to digital and send it to Raspberry pi, when requested.
+Now, we will be programming the ATtiny85 to act as slave,so that it can retrieve data(Analog value) from sensor(TMP36) and convert it to digital and send it to Raspberry pi, when requested.
 
 First i am testing my circuit and program on Arduino(instead of Raspberry pi directly), to make troubleshooting easier.
 For this purpose we need library, TinywireS libirary  from link
-https://github.com/nadavmatalon/TinyWireS
-
+[TinyWireS_library](https://github.com/nadavmatalon/TinyWireS)
+/*https://github.com/nadavmatalon/TinyWireS*/
 
 For that i uploaded this code on ATtiny85
 ```
@@ -175,6 +178,9 @@ void loop() {
   }
 }
 ```
+Again check for Board choose ATtiny85 and programmer as Arduino as ISP.
+And upload the code.
+
 ## 3 Wiring the circuit
 (Wiring Arduino + ATtiny85 + TMP36)
 
