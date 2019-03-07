@@ -45,7 +45,7 @@ Connect the Arduino to the ATtiny as follows:
 ![image](https://user-images.githubusercontent.com/43186746/49834282-06f6d300-fd6a-11e8-9773-d0e714a9c869.png)
 
 ![breadboard](https://user-images.githubusercontent.com/43186746/49835450-34914b80-fd6d-11e8-8b03-5ed128468fc4.PNG)
-![PCB](https://user-images.githubusercontent.com/43186746/49835450-349need to be fixed.PNG)
+![attiny85](https://user-images.githubusercontent.com/43186746/53997018-995c0800-4108-11e9-86b2-ac51a5be835f.PNG)
 
 3. Program the Arduino, so that it can program the microcontroller(ATtiny85), using "Arduino" software. To do that 3 steps need to be follow:
 
