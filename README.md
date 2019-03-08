@@ -6,9 +6,9 @@ Step 1. [Programming the Arduino(so that it can program ATtiny85)](https://githu
 
 Step 2. [Programming the ATtiny85](https://github.com/HumberCampusExplorer/CampusExplorer#2-programming-the-attiny85)
 
-Step 3. [Wiring the circuit(Wiring Arduino + ATtiny85 + TMP36)](https://github.com/HumberCampusExplorer/CampusExplorer#3-wiring-the-circuit)
+Step 3. [Wiring the circuit](Wiring Arduino + ATtiny85 + TMP36)](https://github.com/HumberCampusExplorer/CampusExplorer#3-wiring-the-circuit)
 
-Step 4. [Programming the Arduino- To act as a master device](https://github.com/HumberCampusExplorer/CampusExplorer#4-programming-the-Arduino-to-act-as-a-master-device)
+Step 4. [Programming the Arduino-To act as a master device](https://github.com/HumberCampusExplorer/CampusExplorer#4-programming-the-Arduino-to-act-as-a-master-device)
 
 Step 5. [Power up the circuit](https://github.com/HumberCampusExplorer/CampusExplorer#5-power-up-the-circuit)
 
@@ -43,20 +43,22 @@ Connect the Arduino to the ATtiny as follows:
 - Arduino Pin 13   --->  ATtiny Pin 7.
 
 ![attiny85](https://user-images.githubusercontent.com/43186746/53997018-995c0800-4108-11e9-86b2-ac51a5be835f.PNG)![breadboardattiny85](https://user-images.githubusercontent.com/43186746/53997293-ac230c80-4109-11e9-805e-b55830ff82f2.PNG)
-
 ![arduino attiny85](https://user-images.githubusercontent.com/43186746/54045209-fe623d00-419e-11e9-8d46-b0f489b10852.jpg)
-
-
 
 3. Program the Arduino, so that it can program the microcontroller(ATtiny85), using "Arduino" software. To do that 3 steps need to be follow:
 
-->Select the "ArduinoISP" sketch from the "Examples" menu.
-->Upload the sketch to Arduino.
-->Check and make sure, from tools, the board selected is "Arduino/Genuino Uno",Port selected is same as the port on which the arduino is connected with the computer and select the programmer "AVR ISP", otherwise it will give the error related to serial.
+-> Select the "ArduinoISP" sketch from the "Examples" menu.
+
+-> Upload the sketch to Arduino.
+
+-> Check and make sure, from tools, the board selected is "Arduino/Genuino Uno",Port selected is same as the port on which the arduino is connected with the computer and select the programmer "AVR ISP", otherwise it will give the error related to serial.
+
 -> And Finally, upload it.
-->Arduino is now configured as a serial programmer that can program other chips.
+
+-> Arduino is now configured as a serial programmer that can program other chips.
 
 4. Add the Attiny85 core files by adding the following file/Folder url to arduino preferences:
+
 [ATtiny_85](https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json)
 
 and going to board the manager and adding the board ATtiny85.
@@ -81,6 +83,7 @@ Then open the basic blink example and change the pin number from 13 to 4 and upl
 and it shows that now arduino can program the ATtiny 85.
 
 ## 2 Programming the ATtiny85 
+
 Now, we will be programming the ATtiny85 to act as slave,so that it can retrieve data(Analog value) from sensor(TMP36) and convert it to digital and send it to Raspberry pi, when requested.
 
 First i am testing my circuit and program on Arduino(instead of Raspberry pi directly), to make troubleshooting easier.
@@ -181,7 +184,7 @@ void loop() {
   }
 }
 ```
-Again check for Board choose ATtiny85 and programmer as Arduino as ISP.
+* check for Board choose "ATtiny85" and programmer as "Arduino as ISP".
 And upload the code.
 
 ## 3 Wiring the circuit
@@ -206,9 +209,9 @@ We need to insert pull-up resistor (nearly 4.7k ohm ) between pin 5 (ATtiny85) a
 
 Then attach the auduino with USB cable type A/B with computer to power up Arduino.
 
-![img_1011](https://user-images.githubusercontent.com/43186746/53997747-5d767200-410b-11e9-88bc-fabd739ecde1.jpg)
 ![pcbwithtmp36arduino](https://user-images.githubusercontent.com/43186746/53996761-ae846700-4107-11e9-9af1-fb3bb9434271.PNG)![bbwithtmp36arduino](https://user-images.githubusercontent.com/43186746/53997303-afb69380-4109-11e9-9da5-c32c6a4ea44f.PNG)
 ![arduinoattiny85tmp36](https://user-images.githubusercontent.com/43186746/54045227-0b7f2c00-419f-11e9-86cb-c07641a722b1.jpg)
+
 # 4 Programming the Arduino to act as a master device
 
 For this i just uploaded a sketch to arduino.
@@ -217,7 +220,7 @@ For that i changed the options from ARDUINO software=>
 - Tools-> Board:"Arduino/Genuino uno" and 
 - Tools-> Programmer:"AVR ISP"
 
-AND then uploaded from "sketch"
+AND then uploaded the "sketch"
 
 ```
 #include <Wire.h>
@@ -254,9 +257,9 @@ Now attach (USB cable type A/B) to computer, to power it and complete the circui
 
 # 6 Testing 
 Then, after completing all the steps I checked the output at Serial Monitor. 
-and it gave me this output(it is not the correct output, but it is in the pattern which we are looking for):
+and it gave me this output.
 
 ![Output](https://user-images.githubusercontent.com/43186746/53996348-0e7a0e00-4106-11e9-9e12-08b857c57e84.png)
 ![Output](https://user-images.githubusercontent.com/43186746/54045651-3027d380-41a0-11e9-9c38-c16cfa4d8b76.png)
 
-At this point Project is working with the Arduino It is outputting the required readings.
+At this point Project is working with the Arduino, it is giving the required readings.
