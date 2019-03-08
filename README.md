@@ -44,6 +44,10 @@ Connect the Arduino to the ATtiny as follows:
 
 ![attiny85](https://user-images.githubusercontent.com/43186746/53997018-995c0800-4108-11e9-86b2-ac51a5be835f.PNG)![breadboardattiny85](https://user-images.githubusercontent.com/43186746/53997293-ac230c80-4109-11e9-805e-b55830ff82f2.PNG)
 
+![arduino attiny85](https://user-images.githubusercontent.com/43186746/54045209-fe623d00-419e-11e9-8d46-b0f489b10852.jpg)
+
+
+
 3. Program the Arduino, so that it can program the microcontroller(ATtiny85), using "Arduino" software. To do that 3 steps need to be follow:
 
 ->Select the "ArduinoISP" sketch from the "Examples" menu.
@@ -204,7 +208,7 @@ Then attach the auduino with USB cable type A/B with computer to power up Arduin
 
 ![img_1011](https://user-images.githubusercontent.com/43186746/53997747-5d767200-410b-11e9-88bc-fabd739ecde1.jpg)
 ![pcbwithtmp36arduino](https://user-images.githubusercontent.com/43186746/53996761-ae846700-4107-11e9-9af1-fb3bb9434271.PNG)![bbwithtmp36arduino](https://user-images.githubusercontent.com/43186746/53997303-afb69380-4109-11e9-9da5-c32c6a4ea44f.PNG)
-
+![arduinoattiny85tmp36](https://user-images.githubusercontent.com/43186746/54045227-0b7f2c00-419f-11e9-86cb-c07641a722b1.jpg)
 # 4 Programming the Arduino to act as a master device
 
 For this i just uploaded a sketch to arduino.
