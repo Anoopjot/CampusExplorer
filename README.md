@@ -257,6 +257,6 @@ Then, after completing all the steps I checked the output at Serial Monitor.
 and it gave me this output(it is not the correct output, but it is in the pattern which we are looking for):
 
 ![Output](https://user-images.githubusercontent.com/43186746/53996348-0e7a0e00-4106-11e9-9e12-08b857c57e84.png)
-
+![Output](https://user-images.githubusercontent.com/43186746/54045651-3027d380-41a0-11e9-9c38-c16cfa4d8b76.png)
 
 At this point Project is working with the Arduino It is outputting the required readings.
