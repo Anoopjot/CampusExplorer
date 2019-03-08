@@ -72,6 +72,8 @@ Then open the basic blink example and change the pin number from 13 to 4 and upl
 6. Tested the circuit.
 
 ![blinkled](https://user-images.githubusercontent.com/43186746/48095922-f3dd6a00-e1e3-11e8-8093-7cb11453cb22.jpeg)
+![img_1014](https://user-images.githubusercontent.com/43186746/53997746-5d767200-410b-11e9-8dff-36742cfafaa1.jpg)
+
 ![pcbwithtmp36arduino](https://user-images.githubusercontent.com/43186746/53996761-ae846700-4107-11e9-9af1-fb3bb9434271.PNG)![bbwithtmp36arduino](https://user-images.githubusercontent.com/43186746/53997303-afb69380-4109-11e9-9da5-c32c6a4ea44f.PNG)
 
 and it shows that now arduino can program the ATtiny 85.
@@ -202,7 +204,7 @@ We need to insert pull-up resistor (nearly 4.7k ohm ) between pin 5 (ATtiny85) a
 
 Then attach the auduino with USB cable type A/B with computer to power up Arduino.
 
-![arduino attiny85](https://user-images.githubusercontent.com/43186746/49829572-c5136000-fd5c-11e8-8961-d992e243ce99.jpg)
+![img_1011](https://user-images.githubusercontent.com/43186746/53997747-5d767200-410b-11e9-88bc-fabd739ecde1.jpg)
 
 # 4 Programming the Arduino to act as a master device
 
