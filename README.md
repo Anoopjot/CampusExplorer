@@ -6,7 +6,7 @@ Step 1. [Programming the Arduino(so that it can program ATtiny85)](https://githu
 
 Step 2. [Programming the ATtiny85](https://github.com/HumberCampusExplorer/CampusExplorer#2-programming-the-attiny85)
 
-Step 3. [Wiring the circuit](Wiring Arduino + ATtiny85 + TMP36)](https://github.com/HumberCampusExplorer/CampusExplorer#3-wiring-the-circuit)
+Step 3. [Wiring the circuit(Wiring Arduino + ATtiny85 + TMP36)](https://github.com/HumberCampusExplorer/CampusExplorer#3-wiring-the-circuit)
 
 Step 4. [Programming the Arduino-To act as a master device](https://github.com/HumberCampusExplorer/CampusExplorer#4-programming-the-Arduino-to-act-as-a-master-device)
 
