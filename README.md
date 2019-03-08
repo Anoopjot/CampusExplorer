@@ -258,4 +258,5 @@ and it gave me this output(it is not the correct output, but it is in the patter
 
 ![Output](https://user-images.githubusercontent.com/43186746/53996348-0e7a0e00-4106-11e9-9e12-08b857c57e84.png)
 
+
 At this point Project is working with the Arduino It is outputting the required readings.
