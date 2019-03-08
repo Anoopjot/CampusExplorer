@@ -262,4 +262,4 @@ and it gave me this output.
 ![Output](https://user-images.githubusercontent.com/43186746/53996348-0e7a0e00-4106-11e9-9e12-08b857c57e84.png)
 ![Output](https://user-images.githubusercontent.com/43186746/54045651-3027d380-41a0-11e9-9c38-c16cfa4d8b76.png)
 
-At this point Project is working with the Arduino, it is giving the required readings.
+After following all the step, it will start measuring the temperature from TMP36 through Arduino.
