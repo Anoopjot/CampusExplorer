@@ -256,8 +256,8 @@ Wire.requestFrom(0x30, 1);    // request 1 bytes from slave device #0x13
 Now attach (USB cable type A/B) to computer, to power it and complete the circuit and test it. 
 
 # 6 Testing 
-Then, after completing all the steps I checked the output at Serial Monitor. 
-and it gave me this output.
+Then, after completing all the steps, checked the output at Serial Monitor. 
+and the output should be similar to this. You can uncheck the Autoscroll option to have a clear look over readings.
 
 ![Output](https://user-images.githubusercontent.com/43186746/53996348-0e7a0e00-4106-11e9-9e12-08b857c57e84.png)
 ![Output](https://user-images.githubusercontent.com/43186746/54045651-3027d380-41a0-11e9-9c38-c16cfa4d8b76.png)
