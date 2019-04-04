@@ -286,4 +286,58 @@ We need to insert pull-up resistor (nearly 4.7k ohm ) between pin 5 (ATtiny85) a
 Another thing which need to be kept in mind while making connections, is TMP36 will give exact reading only if it is connected to 5V (although, in datasheet it says it can work on power supply between 3v & 5v, but when i tried it was giving wrong readings). So I connected the TMP36 with 5v and ATtiny85 with 3.3 v.
 
 Then connect the Raspberry pi with screen using HDMI to VGA cable and VGA adapter and give it a power supply.
-It Should start, Raspberry should have operating system already installed, i bought like that only. It already had the noobs installed then go to terminal and
+It Should start, Raspberry should have operating system already installed, i bought like that only. It already had the NOOBS installed then go to terminal.
+
+WiringPi is PRE-INSTALLED with standard Raspbian systems. Check for wiringPi library, by issuing the command:
+-gpio -v
+-gpio readall
+
+I have uploaded this code on Raspberry pi:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <wiringPi.h>
+#include <wiringPiI2C.h>
+
+int i = 0;
+unsigned int readout = 0;
+unsigned int Voltage = 0;
+unsigned int Temperature = 0;
+int FirstByte =0;
+int SecondByte =0;
+
+int main (void) {
+        int fd;
+        wiringPiSetup();
+        fd = wiringPiI2CSetup(0x30);
+        while(1)
+        {
+                FirstByte = wiringPiI2CRead(fd);
+                SecondByte = wiringPiI2CRead(fd);
+ 
+                readout = FirstByte << 8|SecondByte;
+                Voltage = ((readout*3300)/1024);
+                Temperature = ((Voltage-500)/10);
+                printf("Temperature: %d°C \n",Temperature);
+                delay(13);
+        }
+
+        return(0);
+
+}
+
+```
+
+In this code, i converted the digital reading into the voltage using formula{Voltage = ((digital value*3300)/1024)}
+
+and then the voltage into the temperature degree celcius, using formula{Temperature=((voltage-500)/10)}
+
+then compile the code using command:
+- gcc -o tmp36 tmp36.c -lwiringPi
+
+and run it using command:
+- sudo ./tmp36
+ 
+ It should work, and should give reading as follow:
+ 
