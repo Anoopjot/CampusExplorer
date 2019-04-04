@@ -262,4 +262,28 @@ and the output should be similar to this. You can uncheck the Autoscroll option 
 ![Output](https://user-images.githubusercontent.com/43186746/53996348-0e7a0e00-4106-11e9-9e12-08b857c57e84.png)
 ![Output](https://user-images.githubusercontent.com/43186746/54045651-3027d380-41a0-11e9-9c38-c16cfa4d8b76.png)
 
-After following all the step, it will start measuring the temperature from TMP36 through Arduino.
+After following all the step, it will start measuring the temperature from TMP36 through Arduino.The readings are the digital value.
+
+# Creating i2c Device(using ATtiny85, TMP36 and Raspberry pi)
+Now, we will try to get reading on Raspberry pi. It should not be a issue because the ATtiny85 is already programmed,now we just need to put the program on Raspberry pi.
+
+Connect the Raspberry pi with the ATtiny85 and the connections are as follow:
+
+(Wiring Raspberry pi + ATtiny85 + TMP36)
+
+ATtiny 85 & TMP36
+- Pin2 (ATtiny85) -> centre pin(tmp36)
+- Pin 1(TMP36) -> PIN2 (Raspberry pi)
+- Pin3 (TMP36) -> Ground
+
+Raspberry pi & ATtiny85
+- Pin4(ATtiny85) - Pin 9(Ground)
+- Pin8(ATtiny85) - Pin 1(Vcc(3.3v))
+- Pin5(ATtiny85) - Pin 3(SDA)
+- Pin7(ATtiny85) - Pin 5(SCL)
+We need to insert pull-up resistor (nearly 4.7k ohm ) between pin 5 (ATtiny85) and Vcc && between pin 7 (ATtiny85) and Vcc.
+
+Another thing which need to be kept in mind while making connections, is TMP36 will give exact reading only if it is connected to 5V (although, in datasheet it says it can work on power supply between 3v & 5v, but when i tried it was giving wrong readings). So I connected the TMP36 with 5v and ATtiny85 with 3.3 v.
+
+Then connect the Raspberry pi with screen using HDMI to VGA cable and VGA adapter and give it a power supply.
+It Should start, Raspberry should have operating system already installed, i bought like that only. It already had the noobs installed then go to terminal and
