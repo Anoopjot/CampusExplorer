@@ -283,6 +283,8 @@ Raspberry pi & ATtiny85
 - Pin7(ATtiny85) - Pin 5(SCL)
 We need to insert pull-up resistor (nearly 4.7k ohm ) between pin 5 (ATtiny85) and Vcc && between pin 7 (ATtiny85) and Vcc.
 
+
+
 Another thing which need to be kept in mind while making connections, is TMP36 will give exact reading only if it is connected to 5V (although, in datasheet it says it can work on power supply between 3v & 5v, but when i tried it was giving wrong readings). So I connected the TMP36 with 5v and ATtiny85 with 3.3 v.
 
 Then connect the Raspberry pi with screen using HDMI to VGA cable and VGA adapter and give it a power supply.
@@ -340,4 +342,4 @@ and run it using command:
 - sudo ./tmp36
  
  It should work, and should give reading as follow:
- 
+ ![RpiReading2Final](https://user-images.githubusercontent.com/43186746/55592474-825c0600-5706-11e9-8fad-82056dda80df.jpg)
