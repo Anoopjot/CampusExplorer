@@ -14,7 +14,7 @@ Step 5. [Power up the circuit](https://github.com/HumberCampusExplorer/CampusExp
 
 Step 6. [Testing](https://github.com/HumberCampusExplorer/CampusExplorer#6-testing)
 
-Step Final. [Raspbaerry Pi](https://github.com/HumberCampusExplorer/CampusExplorer#creating-i2c-device(using-ATtiny85-TMP36-and-Arduino))
+Step Final. [Raspberry Pi](https://github.com/HumberCampusExplorer/CampusExplorer#creating-i2c-device(using-ATtiny85-TMP36-and-Arduino))
 
 ## Steps to program ATTiny85
 [Follow this link](https://quadmeup.com/attiny85-light-sensor-i2c-slave-device/)
@@ -345,3 +345,5 @@ and run it using command:
  
  It should work, and should give reading as follow:
  ![RpiReading2Final](https://user-images.githubusercontent.com/43186746/55592474-825c0600-5706-11e9-8fad-82056dda80df.jpg)
+ 
+ And That it! 
